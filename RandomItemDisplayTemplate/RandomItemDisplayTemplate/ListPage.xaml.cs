@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
+using System.Xml;
 using Windows.Foundation;
 using Windows.Foundation.Collections;
 using Windows.UI.Xaml;
@@ -21,13 +22,19 @@ namespace RandomItemDisplayTemplate
     /// </summary>
     public sealed partial class ListPage : Page
     {
+
+        List<string> itemsList;
+
+
         public ListPage()
         {
-            //itemsList references insults on MainPage
-            List<string> itemsList = MainPage.items;
-
+          
+          
             this.InitializeComponent();
-            
+
+
+            FillItemList();
+
             int numberOfItems = itemsList.Count();
             
             //populates the listbox
@@ -42,6 +49,39 @@ namespace RandomItemDisplayTemplate
             
 
         }
+
+
+
+        public void FillItemList()
+        {
+
+            itemsList = new List<string>();
+
+            XmlReader reader = XmlReader.Create(@"Common/ItemList.xml");
+
+
+            while (reader.Read())
+            {
+
+                if (reader.NodeType == XmlNodeType.Element)
+                {
+
+                    if (reader.Name == "item")
+                    {
+
+                        reader.Read();
+
+                        string item = reader.Value;
+                        itemsList.Add(item);
+                    }
+
+                }
+
+            }
+
+        }
+
+
 
         /// <summary>
         /// Invoked when this page is about to be displayed in a Frame.

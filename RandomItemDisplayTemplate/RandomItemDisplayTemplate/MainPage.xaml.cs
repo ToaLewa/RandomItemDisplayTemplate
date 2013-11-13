@@ -28,9 +28,7 @@ namespace RandomItemDisplayTemplate
         //A list which holds the items within the XML document
         public static List<string> items;
 
-
-
-
+        
         public MainPage()
         {
             this.InitializeComponent();
@@ -79,7 +77,6 @@ namespace RandomItemDisplayTemplate
                 Random rand = new Random();
 
 
-
                 //randThing is used to randomly pick an index number in the item list
                 //The upper limit of randThing is determined by numOfItems. 
 
@@ -101,9 +98,7 @@ namespace RandomItemDisplayTemplate
                 DisplayRandomItem(itemDisplay);
 
             }
-
-
-
+            
         }
 
         public void FillItemList()
@@ -119,8 +114,7 @@ namespace RandomItemDisplayTemplate
 
                 if (reader.NodeType == XmlNodeType.Element)
                 {
-
-
+                    
                     if (reader.Name == "item")
                     {
 
@@ -129,41 +123,20 @@ namespace RandomItemDisplayTemplate
                         string item = reader.Value;
                         items.Add(item);
                     }
-
-
-
-
-
+                    
                 }
-
-
+                
             }
-
-
-
-
-
+            
         }
 
 
 
         private void OnClick(object sender, RoutedEventArgs e)
         {
-
-
-
             DisplayRandomItem(itemDisplay);
-
         }
-
-
-
-
-
-
-
-
-
+        
 
         private void LinkToPage(object sender, RoutedEventArgs e)
         {
