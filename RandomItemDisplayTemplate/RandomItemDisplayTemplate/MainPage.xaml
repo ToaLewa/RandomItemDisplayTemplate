@@ -52,7 +52,7 @@
                     VerticalAlignment="Center"
                     Height="50"
                     Width="200"
-                    Content="Next Joke"
+                    Content="Next"
                     Click="OnClick">
 
             </Button>
@@ -62,7 +62,7 @@
                 Width="200"
                 HorizontalAlignment="Center"
                 VerticalAlignment="Center"
-                Content="List of Jokes"
+                Content="List"
                 Click="LinkToPage">
 
             </Button>

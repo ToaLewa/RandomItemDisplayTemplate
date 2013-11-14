@@ -1,236 +1,26 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
-
-
+<?xml version="1.0" encoding="utf-8" ?>
 
 <items>
-  
-  <item>If it weren’t for C, we’d all be programming in BASI and OBOL.</item>
-
-  <item>There are 10 types of people in the world: those who understand binary, and those who don’t.</item>
-
-  <item>In a world without fences and walls, who needs Gates and Windows?</item>
-
-  <item>Programming today is a race between software engineers striving to build bigger and better idiot-proof programs, and the Universe trying to produce bigger and better idiots. So far, the Universe is winning.</item>
-
-  <item>Computers make very fast, very accurate mistakes.</item>
-
-  <item>Never underestimate the bandwidth of a station wagon full of tapes hurling down the highway.</item>
-
-  <item>A SQL statement walks into a bar and sees two tables. It approaches, and asks “may I join you?”</item>
-
-  <item>Q: Why is it that programmers always confuse Halloween with Christmas?  A: Because 31 OCT = 25 DEC.</item>
-  
-  <item>Q: How many programmers does it take to change a light bulb? A: None. It’s a hardware problem.</item>
-
-  <item>Two strings walk into a bar and sit down. The bartender says, “So what’ll it be?”  The first string says, “I think I’ll have a beer quag fulk boorg jdk^CjfdLk jk3s d#f67howe%^U r89nvy~~owmc63^Dz x.xvcu”  “Please excuse my friend,” the second string says. “He isn’t null-terminated.”</item>
-
-  <item>“I’m not interrupting you, I’m putting our conversation in full-duplex mode.” - Antone Roundy</item>
-
-  <item>What is the first sign that a computer is getting old?  Loss of memory.</item>
-
-  <item>What does a baby computer call its father?  Data.</item>
-
-  <item>Computers do not have brains. They only think they do.</item>
-
-  <item>My computer really isn't nervous. It's just a little ANSI.</item>
-
-  <item>What do you call a computer virus?  A terminal illness.</item>
-
-  <item>What is an astronaut's favorite computer key?  The space bar.</item>
-
-  <item>To err is human. But if you really want to mess things up, you need a computer.</item>
-
-  <item>Why are there bugs in computers?  They're looking for bytes to eat.</item>
-
-  <item>A computer can make very fast, very accurate mistakes.</item>
-
-  <item>Signs You've had TOO MUCH Computing:
-You try to enter your password on the microwave.</item>
-
-  <item>Old programmers never die. They just terminate and stay resident.</item>
-
-  <item>Tech support: Are you sure you used the right password?
-Customer: Yes, I'm sure. I saw my colleague do it.</item>
-
-  <item>Tech support: Can you tell me what the password was?
-Customer: Five stars.</item>
-
-  <item>Customer: I have a huge problem. A friend has placed a screen saver on my computer, but every time I move the mouse, it disappears.</item>
-
-  <item>Tech Support: 'Ok, in the bottom left of the screen, can you see the ' OK' button displayed?'
-Customer: 'Wow. How can you see my screen from there?'</item>
-
-  <item>User Error -
-Replace User</item>
-
-  <item>"Windows Update might require an update before you can install updates for Windows or your programs"</item>
-
-  <item>Ricky, a customer, visits PC Express, the computer store, 'I'm looking for a mystery adventure game with lots of graphics; you know, something really challenging.'  'Well,' replies the shop assistant, 'Have you tried Windows Vista?'</item>
-
-  <item>'Computers make it easier to do a lot of things, but most of the things they make it easier to do don't need to be done.' Andy Rooney</item>
-
-  <item>'Known issue' - It's just the solution that is unknown.</item>
-  
-  <item>There are two types of people in this world: those who understand recursion and those who don’t understand that there are two types of people in this world.</item>
-
-  <item>Two bytes meet. The first byte asks, “Are you ill?”  The second byte replies, “No, just feeling a bit off.”</item>
-
-  <item>Q: “Whats the object-oriented way to become wealthy?”  A: Inheritance</item>
-
-  <item>There are 10 types of people in the world: Those who understand binary, those who don't, and those who didn't expect this item to be in Base-3.</item>
-
-  <item>“Keyboard not found … press F1 to continue”</item>
-
-  <item>Software salesmen and used-car salesmen differ in that the latter know when they are lying.</item>
-
-  <item>The programmer’s national anthem is ‘AAAAAAAAHHHHHHHH’.</item>
-
-  <item>A pessimistic programmer sees the array as half empty.  An optimistic programmer sees the array as half full.  A Real Programmer sees the array as twice as big as it needs to be and calls realloc().</item>
-
-  <item>When your hammer is C++, everything begins to look like a thumb.</item>
-
-  <item>If you put a million monkeys at a million keyboards, one of them will eventually write a Java program.  The rest of them will write Perl programs.</item>
-
-  <item>A Cobol programmer made so much money doing Y2K remediation that he was able to have himself cryogenically frozen when he died. One day in the future, he was unexpectedly resurrected.  When he asked why he was unfrozen, he was told: "It's the year 9999 - and you know Cobol"</item>
-
-  <item>To understand what recursion is, you must first understand recursion.</item>
-
-  <item>Unix is user friendly. It's just very particular about who its friends are.</item>
-
-  <item>Sorry, we can't email your pizza as an attachment.</item>
-
-  <item>'Does my computer hard drive get heavier when I put more data on it?'</item>
-
-  <item>All programmers are playwrights and all computers are lousy actors.</item>
-
-  <item>The programmer to his son: "Here, I brought you a new basketball."  "Thank you, daddy, but where is the user's guide?"</item>
-
-  <item>Once a programmer drowned in the sea. Many Marines where at that time on the beach, but the programmer was shouting "F1 F1" and nobody understood it.</item>
-
-  <item>How do you keep a programmer in the shower all day? Give him a bottle of shampoo which says "lather, rinse, repeat."</item>
-
-  <item>APL is a write-only language.</item>
-
-  <item>In C we had to code our own bugs. In C++ we can inherit them.</item>
-
-  <item>C gives you enough rope to hang yourself. C++ also gives you the tree object to tie it to.</item>
-
-  <item>With C you can shoot yourself in the leg. With C++ you can reuse the bullet.</item>
-
-  <item>A computer without COBOL and Fortran is like a piece of chocolate cake without ketchup and mustard.</item>
-
-  <item>PL/I is for programmers who can't decide whether to write in COBOL or Fortran.</item>
-
-  <item>The most important thing in the programming language is the name. A language will not succeed without a good name. I have recently invented a very good name and now I am looking for a suitable language.</item>
-
-  <item>Why are Pascal programmers asked to live in Atlantis?  Because it is below C level. - D. E. Knuth, 1967</item>
-
-  <item>Have you heard they are developing an Object Oriented version of COBOL? It's called Add 1 To COBOL</item>
-
-  <item>CD-ROM (acronym): Consumer Device, Rendered Obsolete in Months</item>
-
-  <item>PCMCIA (acronym): People Can't Memorize Computer Industry Acronyms</item>
-
-  <item>ISDN (acronym): It Still Does Nothing</item>
-
-  <item>SCSI (acronym): System Can't See It</item>
-
-  <item>MIPS (acronym): Meaningless Indication of Processor Speed</item>
-
-  <item>DOS (acronym): Defunct Operating System</item>
-
-  <item>WINDOWS (acronym): Will Install Needless Data On Whole System</item>
-
-  <item>OS/2 (acronym): Obsolete Soon, Too</item>
-
-  <item>PnP (acronym): Plug and Pray</item>
-
-  <item>APPLE (acronym): Arrogance Produces Profit-Losing Entity</item>
-
-  <item>IBM (acronym): I Blame Microsoft</item>
-
-  <item>DEC (acronym): Do Expect Cuts</item>
-
-  <item>MICROSOFT (acronym): Most Intelligent Customers Realize Our Software Only Fools Teenagers</item>
-
-  <item>CA (acronym): Constant Acquisitions</item>
-
-  <item>COBOL (acronym): Completely Obsolete Business Oriented Language</item>
-
-  <item>liSP (acronym): Lots of Insipid and Stupid Parentheses</item>
-
-  <item>MACINTOSH (acronym): Most Applications Crash; If Not, The Operating System Hangs</item>
-
-  <item>AAAAA (acronym): American Association Against Acronym Abuse.</item>
-
-  <item>Why aren't more Mac owners computer literate?  They would be, if they had a computer.</item>
-
-  <item>Steve Jobs was a revolutionary who believed that people – especially those with money – should have great computer devices defined by simplicity, reliability, high prices, and missing features.</item>
-
-  <item>Why did the private boarding school reject OO software designer go to work in defence?  Because someone said there would be 'class' warfare!</item>
-
-  <item>If cars had followed the same developmental path as computers, a Rolls Royce would cost $100, get a million miles per gallon, and crash once a year.</item>
-  
-  <item>If builders built buildings the way programmers write programs, then the first woodpecker to come along would destroy civilization.</item>
-  
-  <item>Every program is either trivial or it contains at least one bug.</item>
-
-  <item>The determined programmer can write a COBOL program in any language.</item>
-
-  <item>The computer is mightier than the pen, the sword, and usually, the programmer.</item>
-
-  <item>The generation of random numbers is too important to be left to chance.</item>
-
-  <item>Windows 95 is a 32 bit extension for a 16 bit patch to an 8 bit operating system originally coded for a 4 bit microprocessor by a 2 bit company that can't stand 1 bit of competition.</item>
-
-  <item>Have you heard about the new Cray super computer? It's so fast, it executes an infinite loop in 6 seconds.</item>
-
-  <item>When computing, whatever happens, behave as though you meant it to happen.</item>
-
-  <item>When you get to the point where you really understand your computer, it's probably obsolete.</item>
-
-  <item>The first place to look for information is in the section of the manual where you least expect to find it.</item>
-
-  <item>For every action, there is an equal and opposite malfunction.</item>
-
-  <item>He who laughs last probably made a back-up.</item>
-
-  <item>A complex system that does not work is invariably found to have evolved from a simpler system that worked just fine.</item>
-
-  <item>The number one cause of computer problems is computer solutions.</item>
-
-  <item>A computer program will always do what you tell it to do, but rarely what you want to do.</item>
-
-  <item>Real software engineers don't read dumps. They never generate them, and on the rare occasions that they come across them, they are vaguely amused.</item>
-
-  <item>Real software engineers don't comment their code. The identifiers are so mnemonic they don't have to.</item>
-  
-  <item>Real software engineers don't write application programs, they implement algorithms.</item>
-
-  <item>Real software engineers don't program in a language that doesn't have recursive function calls.</item>
-
-  <item>Real software engineers don't debug programs, they verify correctness.</item>
-
-  <item>Real software engineers admire PASCAL for its discipline and spartan purity, but they find it difficult to actually program in.</item>
-
-  <item>Real software engineers work from 9 to 5, because that is the way the job is described in the formal spec. Working late would feel like using an undocumented external procedure.</item>
-
-  <item>Real software engineers like writing their own compilers, preferably in PROLOG.</item>
-
-  <item>Real software engineers regret the existence of COBOL, FORTRAN and BASIC. PL/I is getting there, but it is not nearly disciplined enough; far too much built in functions.</item>
-
-  <item>Real software engineers aren't too happy about the existence of users. Users always seem to have the wrong idea about what the implementation and verification of algorithms is all about.</item>
-
-  <item>Customer: My computer doesn't work!  The hard drive crashed!  What do I do!  
-Tech Support: Did you back up?
-Customer: Why?  Is it gonna blow?!</item>
-
-  <item>int getRandomNumber()
-{
-   return 4; //chosen by fair dice roll.
-             //guaranteed to be random
-}</item>
+	
+	<!--Below is an example of items you can use in your app-->
+	
+	<item>All labor that uplifts humanity has dignity and importance and should be undertaken with painstaking excellence.
+- Martin Luther King, Jr.</item>
+	
+	<item>Work is a necessary evil to be avoided.
+- Mark Twain</item>
+
+	<item>It is the working man who is the happy man. It is the idle man who is the miserable man.
+- Benjamin Franklin</item>
+	
+	<item>There is no substitute for hard work.
+- Thomas A. Edison</item>
+
+	<item>The harder I work, the luckier I get.
+- Samuel Goldwyn</item>
+
+	<item>Opportunity is missed by most people because it is dressed in overalls and looks like work.
+- Thomas A. Edison</item>
 
 </items>
-  
-  
+
