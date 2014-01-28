@@ -2,7 +2,6 @@
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
-using System.Xml;
 using Windows.Foundation;
 using Windows.Foundation.Collections;
 using Windows.UI.ApplicationSettings;
@@ -26,7 +25,7 @@ namespace RandomItemDisplayTemplate
     {
 
         //A list which holds the items within the XML document
-        public static List<string> items;
+        List<string> items;
 
         
         public MainPage()
@@ -47,7 +46,10 @@ namespace RandomItemDisplayTemplate
             //fills the item list once the list is empty
             if (Settings.runFillList == true)
             {
-                FillItemList();
+
+                ItemListFiller creator = new ItemListFiller();
+                items = creator.ListFiller();
+
                 Settings.runFillList = false;
             }
 
@@ -94,41 +96,16 @@ namespace RandomItemDisplayTemplate
             //If the item list runs out.  The list is repopulated and the method is run again.
             catch
             {
-                FillItemList();
+                ItemListFiller creator = new ItemListFiller();
+                items = creator.ListFiller();
+
                 DisplayRandomItem(itemDisplay);
 
             }
             
         }
 
-        public void FillItemList()
-        {
-
-            items = new List<string>();
-
-            XmlReader reader = XmlReader.Create(@"Common/ItemList.xml");
-
-
-            while (reader.Read())
-            {
-
-                if (reader.NodeType == XmlNodeType.Element)
-                {
-                    
-                    if (reader.Name == "item")
-                    {
-
-                        reader.Read();
-
-                        string item = reader.Value;
-                        items.Add(item);
-                    }
-                    
-                }
-                
-            }
-            
-        }
+        
 
 
 

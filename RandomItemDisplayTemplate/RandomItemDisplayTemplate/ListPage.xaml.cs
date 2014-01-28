@@ -2,7 +2,6 @@
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
-using System.Xml;
 using Windows.Foundation;
 using Windows.Foundation.Collections;
 using Windows.UI.Xaml;
@@ -25,6 +24,8 @@ namespace RandomItemDisplayTemplate
 
         List<string> itemsList;
 
+       
+
 
         public ListPage()
         {
@@ -33,11 +34,15 @@ namespace RandomItemDisplayTemplate
             this.InitializeComponent();
 
 
-            FillItemList();
+            ItemListFiller creator = new ItemListFiller();
+
+            itemsList = creator.ListFiller();
+
+            
 
             int numberOfItems = itemsList.Count();
             
-            //populates the listbox
+            //populates the textblock with the items
             for (int i = 0; i <= numberOfItems - 1; i++)
             {
 
@@ -52,34 +57,7 @@ namespace RandomItemDisplayTemplate
 
 
 
-        public void FillItemList()
-        {
-
-            itemsList = new List<string>();
-
-            XmlReader reader = XmlReader.Create(@"Common/ItemList.xml");
-
-
-            while (reader.Read())
-            {
-
-                if (reader.NodeType == XmlNodeType.Element)
-                {
-
-                    if (reader.Name == "item")
-                    {
-
-                        reader.Read();
-
-                        string item = reader.Value;
-                        itemsList.Add(item);
-                    }
-
-                }
-
-            }
-
-        }
+       
 
 
 
